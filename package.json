@@ -1,0 +1,29 @@
+{
+  "name": "qa-auto-test-booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runtest": "./node_modules/.bin/codeceptjs run --steps",
+    "selstart": "./node_modules/selenium-standalone/bin/selenium-standalone start",
+    "selinstall": "./node_modules/.bin/selenium-standalone install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joizo/QA-Auto-Test-Booking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joizo/QA-Auto-Test-Booking/issues"
+  },
+  "homepage": "https://github.com/joizo/QA-Auto-Test-Booking#readme",
+  "devDependencies": {
+    "codeceptjs": "^1.4.3",
+    "selenium-standalone": "^6.15.3",
+    "webdriverio": "^4.13.2"
+  },
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
