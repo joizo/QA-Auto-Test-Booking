@@ -21,6 +21,7 @@ Select on the website of the "Booking.com" page New York City and insert the cur
 **Expected Result:**
 All steps is passed
 ## Run
+#### The Selenium-standalone server and test must be run concurrently and in different terminals.
 Install the necessary packages for test
 ```
 npm install
