@@ -5,8 +5,7 @@ const I = actor();
 
 module.exports = {
     locators: {
-        checkLocation: 'div.address > a:nth-child(2)',
-        noResultInPage: '//*[@class="take-control__header"]'
+        checkLocation: 'div.address > a:nth-child(2)'
     },
 
     async checkResultInLocation() {

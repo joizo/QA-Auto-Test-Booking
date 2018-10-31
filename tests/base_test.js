@@ -9,7 +9,7 @@ Scenario('Test Booking', async (I) => {
     
     // Pick destination: "New York"
     I.fillField({xpath: mainPage.locators.inputSearchField}, mainPage.city);
-    
+
     // Pick current date
     mainPage.сheckInDate();
     
@@ -19,9 +19,9 @@ Scenario('Test Booking', async (I) => {
     // Click on button "Search"
     I.click(mainPage.locators.buttonClickOnSearch);
 
-    // Stop when the search result is 0 when see "Take charge of your search"
-    I.dontSeeElement(searchPage.locators.noResultInPage);
-    
+    // Stop when the search result is 0 when don't see location element
+    I.seeElement(searchPage.locators.checkLocation);
+
     // Check all results are from New York on Search Page in the location text
     await searchPage.checkResultInLocation();
 });

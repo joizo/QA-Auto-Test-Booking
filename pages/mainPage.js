@@ -10,7 +10,7 @@ const I = actor();
 
 module.exports = {
   city: 'New York',
-  url: 'www.booking.com',
+  url: 'www.booking.com/index.en-us.html',
   locators: {
     inputSearchField: '//*[@id="ss"]',
     buttonClickOnSearch: '//*[@class="xp__button"]'
